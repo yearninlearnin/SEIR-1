@@ -30,7 +30,7 @@ resource "google_compute_instance" "vm" {
     cd /tmp
     sudo git clone https://github.com/BalericaAI/SEIR-1.git
 
-    sud0 chmod +x /tmp/SEIR-1/weekly_lessons/weeka/userscripts/supera.sh
+    sudo chmod +x /tmp/SEIR-1/weekly_lessons/weeka/userscripts/supera.sh
     sudo bash /tmp/SEIR-1/weekly_lessons/weeka/userscripts/supera.sh
   EOT
 
